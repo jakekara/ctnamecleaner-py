@@ -9,6 +9,10 @@ This installs a command line script, ctclean,  as well as a library
 
 by Jake Kara, jake@jakekara.com
 
+### Installation
+
+    pip install ctnamecleaner
+
 ### Command line util
 
 Usage:

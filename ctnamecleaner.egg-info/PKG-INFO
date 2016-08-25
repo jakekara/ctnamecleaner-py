@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
 Name: ctnamecleaner
-Version: 0.1
+Version: 0.4
 Summary: Replace village and commonly-misspelled Connecticut town names with real town names.
-Home-page: http://jakekara.com
+Home-page: https://github.com/jakekara/ctnamecleaner-py
 Author: Jake Kara
 Author-email: jake@jakekara.com
 License: GPL
