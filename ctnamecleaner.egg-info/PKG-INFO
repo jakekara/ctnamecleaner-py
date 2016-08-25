@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: ctnamecleaner
+Version: 0.1
+Summary: Replace village and commonly-misspelled Connecticut town names with real town names.
+Home-page: http://jakekara.com
+Author: Jake Kara
+Author-email: jake@jakekara.com
+License: GPL
+Description: # CT Name Cleaner
+        
+        Resolve village and coloquial Connecticut town names, as well as common
+        misspellings of Connecticut town names to their official town names.
+        
+        This is based on an R package of the same name by my colleague Andrew Ba Tran.
+        
+        This installs a command line script, ctclean,  as well as a library 
+        
+        by Jake Kara, jake@jakekara.com
+        
+        
+        
+Platform: UNKNOWN
+Requires: pandas
+Requires: argparse
