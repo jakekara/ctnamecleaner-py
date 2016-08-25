@@ -38,3 +38,16 @@ See the demo/ folder in this repo for an example of translating an entire
 column with the Lookup.clean_dataframe() method. It uses pandas'
 DataFrame.join() method, so it's faster than using the Lookup.cean() method
 and applying it with a lambda function yourself.
+
+### Extending with other data
+
+Not in CT? Want to map other things, like population? Just make a spreadsheet
+and put it anywhere, online or locally, that Pandas .read_csv() can open.
+
+You can specify a spreadsheet (local or remote) to use as the lookup table
+when you instantiate a Lookup object. You have to specify a path to the sheet
+as well as the name of the raw name column and the clean name column.
+
+     >>> l = lookup.Lookup(csv_url="http://path/to/your/sheet",
+			   raw_name_col="something",
+			   clean_name_col="something_else")
