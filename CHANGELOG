@@ -1,0 +1,14 @@
+	0.10.1
+
+	Added numpy-style comments to ctlookup.lookup.
+
+	Added clean_col method meant to replace clean_dataframe.
+
+	Added help.py to print auto-documentation for ctlookup.lookup. See
+	the output in HELP.txt
+
+	Added update script to grab the latest CSV from google sheet
+	before bundling.
+
+	Moved sheet URL into config.py file within ctlookup package.
+

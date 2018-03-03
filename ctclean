@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
+
+""" CLI tool for replacing CT place names in spreadshseets """
 
 from ctlookup import lookup
 import argparse, sys
